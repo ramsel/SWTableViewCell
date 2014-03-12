@@ -119,7 +119,7 @@ static NSString * const kTableViewCellContentView = @"UITableViewCellContentView
     
     // Create the content view that will live in our scroll view
     UIView *scrollViewContentView = [[UIView alloc] initWithFrame:CGRectMake([self leftUtilityButtonsWidth], 0, CGRectGetWidth(self.bounds), self.height)];
-    scrollViewContentView.backgroundColor = [UIColor whiteColor];
+    scrollViewContentView.backgroundColor = [UIColor clearColor];
     [self.cellScrollView addSubview:scrollViewContentView];
     self.scrollViewContentView = scrollViewContentView;
     
